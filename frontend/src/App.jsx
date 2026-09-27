@@ -6,7 +6,7 @@ import ShinyText from "./components/ShinyText";
 import SpotlightCard from "./components/SpotlightCard";
 import BorderGlow from "./components/BorderGlow";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://url-shortener-api-fwai.onrender.com";
 
 function App() {
     const [isLoggedIn, setIsLoggedIn] = useState(
