@@ -1,0 +1,20 @@
+.blur-text {
+    display: inline-block;
+}
+
+.blur-text-word {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(14px);
+    transition:
+        opacity 0.7s ease,
+        filter 0.7s ease,
+        transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.blur-text-visible .blur-text-word {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}

@@ -1,0 +1,22 @@
+.shiny-text {
+    display: inline-block;
+    background: linear-gradient(
+        120deg,
+        #ffffff 20%,
+        #a78bfa 40%,
+        #ffffff 50%,
+        #ffffff 70%
+    );
+    background-size: 220% auto;
+    background-position: 200% center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shiny-text-animation 4s linear infinite;
+}
+
+@keyframes shiny-text-animation {
+    to {
+        background-position: -200% center;
+    }
+}
