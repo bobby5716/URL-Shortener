@@ -431,8 +431,8 @@ expiration
         // ===============================
 
         const baseUrl =
-            process.env.BASE_URL ||
-            `http://localhost:${process.env.PORT || 5000}`;
+    process.env.BASE_URL ||
+    "https://url-shortener-api-fwai.onrender.com";
 
         res.json({
             originalUrl:
